@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "awsreacttodocb6cd19b",
+  "functionName": "awsreacttodocb6cd19bCustomMessage",
+  "resourceName": "awsreacttodocb6cd19bCustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "awsreacttodocb6cd19bCustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://google.com",
+  "EMAILSUBJECT": "Confirm Account",
+  "EMAILMESSAGE": "Confirm created account using the below link",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
